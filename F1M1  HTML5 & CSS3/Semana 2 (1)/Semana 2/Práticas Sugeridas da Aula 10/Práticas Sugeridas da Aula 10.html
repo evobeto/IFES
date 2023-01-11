@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/icone ifes.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática Sugeridas da Aula 10</title>
+</head>
+
+<body>
+    <h1>
+        <center>
+            Práticas Sugeridas da Aula 10
+        </center>
+    </h1>
+    <hr>
+    <h1>Formulários</h1>
+    <hr>
+    <h2>
+        Atividade 1
+    </h2>
+
+
+    <form action="cliente/cadastrar" method="post" style="margin: auto; width: 400px;" name="CadastroDeCliente">
+
+        <h3>
+            <center>
+                <h2>Cadastro de Cliente</h2>
+            </center>
+        </h3>
+        <fieldset>
+
+            <p>
+                <label for="txtNome" title="Nome"><strong>Nome</strong></label><br>
+                <input type="text" name="Nome" id="txtNome" placeholder="Digite seu nome aqui"
+                    style="margin: auto; width: 360px;" title="Nome" required>
+            </p>
+            <p>
+                <label for="email" title="Email"><strong>Email</strong></label><br>
+                <input type="email" name="Email" id="Email" placeholder="Digite seu Email"
+                    style="margin: auto; width: 360px;" title="Email" required>
+            </p>
+            <p>
+                <label for="date" title="Data de Nascimento"><strong>Data de Nascimento</strong></label><br>
+                <input type="date" name="Data" id="DataDeNascimento" style="margin: auto; width: 363px;" required>
+            </p>
+            <p>
+                <label for="number" title="Quantidade de Dependentes"><strong>Quantidade de
+                        Dependentes</strong></label><br>
+                <input type="number" name="QtdDependentes" id="QtdDependentes" style="margin: auto; width: 360px;"
+                    required>
+            </p>
+            <p>
+                <label for="color" title="Cor Preferida"><strong>Cor Preferida</strong></label><br>
+                <input type="color" name="CorPreferida" id="CorPreferida" style="margin: auto; width: 30px;" required>
+            </p>
+            <p>
+                <label for="Telefone" title="Telefone"><strong>Telefone</strong></label><br>
+                <input type="tel" title="Telefone" name="Telefone" id="Telefone" style="margin: auto; width: 360px;"
+                    placeholder="DDD-XXXXXX-XXXX" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}" required>
+            </p>
+
+            <p>
+                <input type="checkbox" title="Aceito Receber Promoções" name="ReceberPromoções"
+                    id="chkAceitoReceberPromoções">
+                <label for="chkAceito" title="Aceito Receber Promoções">Aceito receber promoções</label>
+            </p>
+            <p>
+                <label for="txtMiniBiografia" title="Mini-Biografia">Mini-Biografia<label>
+                        <textarea title="Mini-Biografia" name="observação" id="txtObservação" cols="44" rows="10"
+                            placeholder="Descreva sua observação aqui." required></textarea>
+                        <p>
+                            <input type="checkbox" name="Aceito" id="chkAceito" required>
+                            <label for="chkAceito">Aceito os termos de uso</label>
+                        </p>
+                        <p>
+                            <center>
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Limpar">
+                            </center>
+                        </p>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

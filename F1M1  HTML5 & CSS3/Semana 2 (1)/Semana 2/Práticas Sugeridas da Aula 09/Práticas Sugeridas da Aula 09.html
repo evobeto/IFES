@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone ifes.png">
+    <title>Prática Sugeridas da Aula 09</title>
+</head>
+
+<body>
+    <h1>
+        <center>
+            Práticas Sugeridas da Aula 09
+        </center>
+    </h1>
+    <hr>
+    <h1>Formulários</h1>
+    <hr>
+    <h2>
+        Atividade 1
+    </h2>
+
+
+    <form action="contato/cotar.html" method="post" style="margin: auto; width: 400px;" name="SolicitaçãoDeOrçamento"
+        title="Solicitação de Orçamento">
+
+        <h3>
+            <center>Solicitação de Orçamento</center>
+        </h3>
+        <fieldset>
+
+            <p>
+                <label for="txtNomeCompleto"><strong>Nome Completo</strong></label><br>
+            </p>
+            <p>
+                <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Digite aqui seu nome Completo"
+                    style="margin: auto; width: 360px;" required>
+            </p>
+            <p>
+                <label for="txtTipoDeAnimal"><strong>Tipo de Animal</strong><label>
+            </p>
+            <fieldset>
+                <input type="radio" name="Raça" id="rdRaça" value="Ca" required>
+                <Label for="rdCachorro">Cachorro</Label required>
+                <input type="radio" name="Raça" id="rdRaça" value="Co" required>
+                <Label for="rdCoelho">Coelho</Label>
+                <input type="radio" name="Raça" id="rdRaça" value="Ga" required>
+                <Label for="rdGato">Gato</Label>
+                <input type="radio" name="Raça" id="rdRaça" value="Pá" required>
+                <Label for="rdPássaro">Pássaro</Label required>
+
+            </fieldset>
+            <p>
+                <label for="txtTipoDeServiço">Tipo de Serviço</label><br>
+                <input type="text" name="TipoDeServiço" id="txtTipoDeServiço"
+                    placeholder="Digite aqui o Tipo de Serviço" style="margin: auto; width: 360px;" required>
+            </p>
+            <p>
+                <label for="txtTipoDeAnimal"><strong>Observação</strong><label>
+            </p>
+            <label for="txtObservação"></label>
+            <textarea name="observação" id="txtObservação" cols="40" rows="10"
+                placeholder="Descreva sua observação aqui." required></textarea>
+            <p>
+                <input type="checkbox" name="Aceito" id="chkAceito" required>
+                <label for="chkAceito">Aceito os termos de uso</label>
+            </p>
+            <p>
+                <center>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </center>
+            </p>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

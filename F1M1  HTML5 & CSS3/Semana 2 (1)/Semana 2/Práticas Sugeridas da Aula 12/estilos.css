@@ -1,0 +1,37 @@
+:root {
+    --baby-powder: #fffffa;
+    --davys-grey: hsl(270, 1%, 70%);
+    --rich-black-fogra-39: #000103ff;
+    --jet: #333138ff;
+    --tart-orange: #ff312eff;
+}
+
+body {
+    background: var(--baby-powder) url(img/triangular.png) repeat fixed;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 h3, h4, h5, h6 {
+    color: var(--jet);
+}
+
+p {
+    color: var(--tart-orange)
+}
+
+a {
+    color: var(--rich-black-fogra-39);
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: var(--davys-grey);
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}

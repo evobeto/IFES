@@ -1,0 +1,172 @@
+body, h2 {
+    text-align: center;
+}
+
+
+
+#abcd {
+    text-align: left;
+}
+
+
+p::after {
+    content: " *";
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1::after {
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) skew(-50deg);
+}
+
+#p3::first-letter {
+    font-size: 200%;
+    color: #999;
+}
+
+#p2::first-line {
+    background-color: #e5ea15;
+    font-variant: small-caps;
+}
+
+ul>li::marker {
+    content: "👉🏿 "
+    ;
+    font-size: 90%;
+}
+
+a[href^="http"] {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2%;
+    display: -ms-inline-grid;
+
+}
+
+a[href^="http"]::after {
+    content: " 🌐 ";
+}
+
+
+a[href$=".xlsx"] {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2%;
+    display: -ms-inline-grid;
+}
+
+a[href$=".xlsx"]::after {
+    content: " 📊 ";
+}
+
+
+
+form {
+    text-align: left;
+    display: inline-block;
+
+}
+
+form>div {
+    margin: 1em 0;
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input+label {
+    display: inline;
+    margin: 0;
+}
+
+fieldset>input[type=radio]:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+fieldset {
+    display: inline-block;
+    border-radius: 2px;
+    border: solid 1px gray;
+}
+
+input {
+    border-radius: 2px;
+}
+
+input:focus {
+    background-color: #e7ea1559;
+    outline: 3px solid gray;
+}
+
+input:required {
+    background-color: rgba(0, 255, 255, 0.116);
+}
+
+input[type=number]:in-range {
+    background-color: aquamarine;
+}
+
+input[type=number]:out-of-range {
+    background-color: rgb(245, 1, 1);
+}
+
+input[type=checkbox]:checked+label,
+input[type=radio]:checked+label {
+    font-weight: bold;
+
+}
+
+
+input[type=submit] {
+    background-image: linear-gradient(to right, #000000 0%, #fc0000 51%, #314755 100%);
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #aaa;
+    background-size: 200% auto;
+    transition: 1s;
+
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-position: right center;
+    transition: 1s;
+}
+
+input[type=text]:valid, input[type=email]:valid, input[type=password]:valid {
+    background: url(img/check.svg) no-repeat 95% 50% lightgreen;
+}
+
+input[type=text]:invalid, input[type=email]:invalid, input[type=password]:invalid {
+    background: url(img/caution.svg) no-repeat 95% 50% lightyellow;
+}
+
+td {
+    border: solid 1px gray;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+table tr:nth-child(odd) {
+    background-color: #999;
+}

@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+
+
+#cabeçalho {
+    margin: 0%;
+    background-color: rgb(79, 79, 92);
+    width: 100vw;
+    height: 10vh;
+
+}
+
+#menu1 {
+    margin: 0%;
+    background-color: rgb(19, 18, 17);
+    width: 100vw;
+    height: 5vh;
+
+}
+
+#fundoconteudo {
+    margin: 0;
+    background-color: rgba(240, 206, 132, 0.74);
+    width: 100vw;
+    height: 87vh;
+    display: inline-block;
+}
+
+
+#menu2 {
+    display: inline-block;
+    position: fixed;
+}
+
+#artigo1, #artigo2, #artigo3, #artigo4 {
+    margin: 20px;
+}
+
+#conteudo {
+    margin-left: 20vw;
+    margin-right: 20vh;
+    background-color: rgb(255, 255, 255);
+    height: 73.8vh;
+    overflow: auto;
+    display: inline-block;
+    margin-bottom: -1%;
+    padding: 3%;
+    text-align: justify;
+
+}
+
+
+a {
+    text-decoration: none;
+    background-color: rgba(165, 42, 42, 0.692);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: blanchedalmond;
+    transition: 1s;
+
+
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: blanchedalmond;
+    width: 5%;
+
+}
+
+#rodape {
+    margin-top: 0;
+    background-color: rgb(94, 99, 97);
+    width: 100vw;
+    display: flexbox;
+    height: 10vh;
+
+}

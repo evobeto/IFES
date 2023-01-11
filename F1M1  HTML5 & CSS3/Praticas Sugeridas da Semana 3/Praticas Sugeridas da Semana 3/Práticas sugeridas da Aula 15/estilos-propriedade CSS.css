@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+
+
+#cabeçalho {
+    margin: 0%;
+    background-color: rgb(79, 79, 92);
+    width: 100vw;
+    height: 10vh;
+
+}
+
+#menu {
+    margin: 0%;
+    background-color: rgb(19, 18, 17);
+    width: 100vw;
+    height: 5vh;
+
+}
+
+#fundoconteudo {
+    background-color: rgba(240, 206, 132, 0.74);
+    width: 100vw;
+    height: 80vh;
+
+
+
+}
+
+#conteudo {
+    margin: 0 20vw;
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    height: 80vh;
+    display: inline-block;
+
+
+}
+
+#rodape {
+    margin: 0%;
+    background-color: rgb(94, 99, 97);
+    width: 100vw;
+    height: 5vh;
+
+}

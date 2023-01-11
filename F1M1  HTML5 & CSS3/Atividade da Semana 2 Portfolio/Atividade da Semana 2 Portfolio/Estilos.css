@@ -1,0 +1,274 @@
+    @font-face {
+        font-family: caveat;
+        src: url(fonts/caveat/Caveat-Bold.ttf);
+    }
+
+    @font-face {
+        font-family: courier;
+        src: url(fonts/Courier_Prime/CourierPrime-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: opensans;
+        src: url(fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-ExtraBold.ttf)
+    }
+
+
+
+    * {
+        margin: 0%;
+
+        display: flexbox;
+    }
+
+    body {
+        background-color: rgb(202, 216, 221);
+
+    }
+
+    #imagemcabeçalho {
+        border-radius: 100%;
+    }
+
+    #nomecabeçalho {
+        font-family: opensans;
+        font-size: xx-large;
+        text-align: left;
+        display: inline-table;
+        color: #fff;
+
+    }
+
+
+    #descriçãocabeçalho {
+        font-family: courier;
+        font-size: large;
+        text-align: left;
+        color: #fff;
+
+    }
+
+    #olá, #descritivo {
+        font-family: caveat;
+        font-size: 30px;
+        text-align: left;
+        color: #fff;
+
+
+    }
+
+    #btnCaixa {
+        border-radius: 50px;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(38, 152, 175, 1);
+        color: #fff;
+        text-decoration: none;
+        transition: 1s;
+    }
+
+    #btnCaixa:hover {
+        border-radius: 50px;
+        text-align: center;
+        transition: .5s;
+        padding: 10px;
+        background-color: rgba(7, 56, 152, 1);
+        color: #fff;
+        transition: 1s;
+    }
+
+
+
+    h2 {
+        font-family: opensans;
+        font-size: 40px;
+        text-align: left;
+        color: chocolate;
+
+
+    }
+
+    #menubase {
+        border-radius: 50px;
+        text-align: center;
+        display: grid;
+        text-decoration: none;
+        font-family: caveat;
+        font-size: 20px;
+
+
+    }
+
+
+    table {
+        border-collapse: separate;
+        border-spacing: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        ;
+    }
+
+    .img1 {
+        border-radius: 50%
+    }
+
+    .img2 {
+        border-radius: 10px;
+        display: block;
+        margin-left: 20px;
+        width: 86%;
+
+
+    }
+
+
+    .link1 {
+        border-radius: 50px;
+        display: grid;
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    .link1:hover {
+        border-radius: 50px;
+        display: grid;
+        text-align: center;
+        transition: 0.5s;
+        padding: 15px;
+        background-color: rgba(7, 56, 152, 1);
+        color: #fff;
+    }
+
+    .active {
+        display: flex;
+        background-color: rgba(38, 152, 175, 1);
+        ;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .link2 {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.603);
+        font-family: opensans;
+        font-size: 20px;
+    }
+
+    h1 {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.911);
+        font-family: opensans;
+        font-size: 25px;
+
+    }
+
+    .deslink2 {
+        text-decoration: none;
+        color: #000;
+        font-family: courier;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #titulink2 {
+        text-decoration: none;
+        color: #000;
+        font-family: courier;
+        font-size: 25px;
+
+    }
+
+    .link3 {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.89);
+        font-family: opensans;
+        font-size: 20px;
+    }
+
+    #quadro {
+        background-color: #000;
+        padding: 2%;
+        border-radius: 10px;
+        width: 46%;
+        height: 30%;
+
+    }
+
+    header {
+        background: rgb(7, 56, 152);
+        background: linear-gradient(0deg, rgba(7, 56, 152, 1) 56%, rgba(38, 152, 175, 1) 98%);
+    }
+
+
+    form {
+        margin: auto;
+        width: 500px;
+        padding: 1em;
+        border: 2px solid;
+        border-color: rgba(38, 152, 175, 1);
+        border-radius: 20px;
+        font-family: courier;
+        text-align: center;
+    }
+
+    select, input, textarea {
+        margin: 2%;
+        width: 300px;
+        padding: 5px;
+        border: 2px solid;
+        border-color: rgba(7, 56, 152, 1) rgba(38, 152, 175, 1);
+        border-radius: 20px;
+        font-family: courier;
+
+    }
+
+    input:focus, textarea:focus {
+        border-color: rgb(100, 99, 158);
+    }
+
+
+
+    .botão {
+        background: rgba(38, 152, 175, 1);
+        ;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        text-shadow: none;
+        padding: 2%;
+        margin-top: 2%;
+        margin-block: 2%;
+        transition: 1s;
+    }
+
+    .botão:hover {
+        background: rgba(7, 56, 152, 1);
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #eee;
+        text-shadow: none;
+        transition: 1s;
+    }
+
+    #contatofim {
+        font-family: opensans;
+        font-size: 15px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #logoifes {
+        width: 180px;
+    }
+
+
+    footer {
+        text-align: center;
+        padding: 2%;
+        background-color: #fff;
+
+    }

@@ -1,0 +1,50 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px;
+    background-color: rgb(31, 34, 31);
+    color: #FAFFFA;
+    text-align: center;
+
+}
+
+mark {
+    color: lawngreen;
+    background-color: black;
+    text-align: center;
+}
+
+#txtNome {
+    color: blue;
+    background-color: rgb(47, 189, 47);
+
+}
+
+#txtNomeTitulo {
+    color: red;
+
+}
+
+.textoSimples, p, h2 {
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    color: blueviolet;
+
+}
+
+p i {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 240, 240);
+}
+
+p>strong {
+    background-color: darkblue;
+    color: yellow;
+}

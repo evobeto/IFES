@@ -1,0 +1,36 @@
+* {
+    margin: 2%;
+}
+
+#conteiner {
+    text-align: justify;
+}
+
+
+#divp1 {
+    display: inline-block;
+    width: 20%;
+    padding: 2%;
+
+}
+
+#divp2 {
+    display: inline-block;
+    width: 20%;
+    padding: 2%;
+    border-left: 2px;
+    border-color: darkgrey;
+    border-left-style: outset
+}
+
+
+
+#divp3 {
+    display: flex;
+    display: inline-block;
+    width: 20%;
+    padding: 2%;
+    border-left: 2px;
+    border-color: darkgrey;
+    border-left-style: outset
+}

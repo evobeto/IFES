@@ -1,0 +1,50 @@
+@font-face {
+    font-family: MontserratBeto;
+    src: url(Font/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+* {
+    font-family: MontserratBeto;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    color: rgb(167, 157, 151);
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.747);
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(143, 185, 44);
+}
+
+p {
+    padding: 12px 10px;
+}
+
+ul {
+    padding: 5px 30px;
+}
+
+blockquote {
+    border-left: 5px solid#a3be8c;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.747);
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+}

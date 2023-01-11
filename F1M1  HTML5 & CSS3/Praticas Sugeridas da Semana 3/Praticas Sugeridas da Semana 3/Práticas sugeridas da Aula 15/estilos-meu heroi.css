@@ -1,0 +1,21 @@
+* {
+    margin: 2%;
+}
+
+#conteiner {
+    text-align: center;
+}
+
+
+img {
+    opacity: 50%;
+    display: inline-block;
+    width: 40%;
+    transition: 1s;
+}
+
+img:hover {
+    opacity: 100%;
+    width: 42%;
+    transition: 1s;
+}
